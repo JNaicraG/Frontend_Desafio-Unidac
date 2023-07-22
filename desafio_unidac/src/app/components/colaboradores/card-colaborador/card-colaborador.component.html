@@ -1,0 +1,19 @@
+<div class="p-2 d-flex card mb-3" style="width: 65rem;">
+    <table >
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>CPF</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>{{colaborador.nome}}</td>
+                <td>{{colaborador.cpf}}</td>
+            </tr>
+        </tbody>
+    </table>
+    <div class="d-flex justify-content-end m-0">
+        <button class="col-2 m-2 mb-0" routerLink="/colaboradores/editar-colaborador/{{colaborador.id}}">Editar</button>
+    </div>
+</div>
